@@ -6,7 +6,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath("com.android.tools.build:gradle:8.1.2")
     }
 }
 
@@ -15,6 +15,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 34
     buildToolsVersion "34.0.0"
+    namespace "com.reactnativeserialport"
 
     defaultConfig {
         minSdkVersion 23
